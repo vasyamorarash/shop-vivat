@@ -1,0 +1,29 @@
+<?php if ($this->getStatus()): ?>
+    <style type="text/css">
+        img.iboughtit-image {
+            width: 90%;
+            float: right;
+        }
+    </style>
+    <div class="account-login clearer">
+        <div class="registered-users grid12-6">
+            <div class="page-title">
+                <h1><?php echo $this->getTitle(); ?></h1>
+            </div>
+            <div class="content">
+                <?php echo $this->getMarketingText(); ?>
+                <br />
+                <br />
+                <hr />
+                <br />
+                <iframe style="border: none; width: 100%; height: 35px" src="<?php echo $this->getServerUrl() ?>"></iframe>
+            </div>
+        </div>
+        <div class="new-users grid12-6">
+            <div class="content">
+                <img class="iboughtit-image" src="<?php echo $this->getSkinUrl('images/iboughtit/shopping.jpg'); ?>"/>
+            </div>
+        </div>
+
+    </div>
+<?php endif; ?>

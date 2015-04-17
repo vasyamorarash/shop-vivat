@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Svitla_Iboughtit>
+      <version>0.3.0</version>
+    </Svitla_Iboughtit>
+  </modules>
+  <frontend>
+    <routers>
+      <iboughtit>
+        <use>standard</use>
+          <args>
+            <module>Svitla_Iboughtit</module>
+            <frontName>iboughtit</frontName>
+          </args>
+      </iboughtit>
+    </routers>
+		<layout>
+		  <updates>
+			<iboughtit>
+			  <file>svitla/iboughtit.xml</file>
+			</iboughtit>
+		  </updates>
+		</layout>
+  </frontend>
+  <global>
+    <helpers>
+      <iboughtit>
+        <class>Svitla_Iboughtit_Helper</class>
+      </iboughtit>
+    </helpers>
+	<blocks>
+	  <iboughtit>
+		<class>Svitla_Iboughtit_Block</class>
+	  </iboughtit>
+	</blocks>
+	<models>
+	  <iboughtit>
+		<class>Svitla_Iboughtit_Model</class>
+		<resourceModel>iboughtit_mysql4</resourceModel>
+	  </iboughtit>
+	</models>
+    <events>
+	  <catalog_product_delete_before> <!-- identifier of the event we want to catch -->
+        <observers>
+          <catalog_product_delete_before_handler> <!-- identifier of the event handler -->
+            <type>model</type> <!-- class method call type; valid are model, object and singleton -->
+            <class>iboughtit/observer</class> <!-- observers class alias -->
+            <method>productDeleteBefore</method>  <!-- observer's method to be called -->
+            <args></args> <!-- additional arguments passed to observer -->
+          </catalog_product_delete_before_handler>
+        </observers>
+      </catalog_product_delete_before>
+        <checkout_onepage_controller_success_action>
+            <observers>
+                <iboughtit_order_success>
+                    <class>iboughtit/observer</class>
+                    <method>orderSuccess</method>
+                </iboughtit_order_success>
+            </observers>
+        </checkout_onepage_controller_success_action>
+
+    </events>
+      <template>
+          <email>
+              <coupon_new  module="modulename">
+                  <label>any desired  name</label>
+                  <file>sales/coupon_new.html</file>  // this specifies the path where the custom template is located
+                  <type>html</type>
+              </coupon_new>
+          </email>
+      </template>
+  </global>
+</config> 

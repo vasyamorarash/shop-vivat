@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Google_Snippets>
+			<version>0.0.8</version>
+		</Google_Snippets>
+	</modules>
+	
+	<global>
+		<blocks>
+			<googlesnippets>
+				<class>Google_Snippets_Block</class>
+			</googlesnippets>
+		</blocks>
+		
+		<helpers>
+			<googlesnippets>
+				<class>Google_Snippets_Helper</class>
+			</googlesnippets>			
+		</helpers>
+	</global>
+	
+	<frontend>
+		<layout>
+			<updates>
+				<googlesnippets>
+					<file>googlesnippets.xml</file>
+				</googlesnippets>
+			</updates>
+		</layout>
+	</frontend>
+</config>

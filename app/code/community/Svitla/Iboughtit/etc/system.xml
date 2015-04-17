@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<config>
+	  <tabs>
+		<svitla_systems translate="label" module="iboughtit">
+            <label>Svitla Systems</label>
+            <sort_order>0</sort_order>
+        </svitla_systems>
+	  </tabs>
+	  <sections>
+		<svitla_iboughtit  translate="label" module="iboughtit">
+		<label>IBoughtIt</label>
+		<tab>svitla_systems</tab>
+		<frontend_type>text</frontend_type>
+		<sort_order>0</sort_order>
+		<show_in_default>1</show_in_default>
+		<show_in_website>1</show_in_website>
+		<show_in_store>1</show_in_store>            
+					<groups>
+				      <general translate="label"> 
+                          <label>General</label>
+                          <frontend_type>text</frontend_type>
+                          <sort_order>0</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                           <fields>
+                              <status translate="label">
+                                <label>Status</label>
+                                <frontend_type>select</frontend_type>
+                                <source_model>adminhtml/system_config_source_yesno</source_model>
+                                <sort_order>1</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                                <comment>Status</comment>
+                              </status>
+                              <apikey translate="label">
+                                <label>Api key</label>
+                                <frontend_type>text</frontend_type>
+                                <sort_order>2</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                                <comment>Api key</comment>
+                              </apikey>
+                           </fields>
+					   </general>
+                        <success translate="label">
+                            <label>Success page settings</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <fields>
+                                <button_text translate="label">
+                                    <label>Button text</label>
+                                    <frontend_type>text</frontend_type>
+                                    <sort_order>1</sort_order>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                    <comment>Button text fot "I Bought It" button</comment>
+                                </button_text>
+                                <title translate="label">
+                                    <label>Titlet</label>
+                                    <frontend_type>text</frontend_type>
+                                    <sort_order>2</sort_order>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                    <comment>Title</comment>
+                                </title>
+                                <marketing_message translate="label">
+                                    <label>Marketing message</label>
+                                    <frontend_type>textarea</frontend_type>
+                                    <sort_order>3</sort_order>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                    <comment>Marketing message for success page</comment>
+                                </marketing_message>
+                            </fields>
+                        </success>
+                        <email translate="label">
+                            <label>Email settings</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <fields>
+                                <email_message translate="label">
+                                    <label>Email message</label>
+                                    <frontend_type>textarea</frontend_type>
+                                    <sort_order>2</sort_order>
+                                    <show_in_default>1</show_in_default>
+                                    <show_in_website>1</show_in_website>
+                                    <show_in_store>1</show_in_store>
+                                    <comment>Email message value.</comment>
+                                </email_message>
+                            </fields>
+                        </email>
+					</groups>
+		</svitla_iboughtit>
+	  </sections>
+</config>

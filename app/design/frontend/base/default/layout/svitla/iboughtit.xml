@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<layout version="0.3.0">
+    <!-- I bought info! -->
+    <iboughtit_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/1column.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="iboughtit/checkout_success" name="iboughtit_checkout_success" template="svitla/iboughtit/success.phtml"/>
+            <!--<block type="iboughtit/index" name="iboughtit_index" template="svitla/iboughtit/index.phtml"/>-->
+        </reference>
+    </iboughtit_index_index>
+    <!-- Success page -->
+    <checkout_onepage_success>
+        <reference name="head">
+            <action method="addItem"><type>js_css</type><name>css/iboughtit.css</name><params/></action>
+        </reference>
+        <reference name="content">
+            <block type="iboughtit/checkout_success" name="iboughtit_checkout_success" template="svitla/iboughtit/success.phtml"/>
+        </reference>
+    </checkout_onepage_success>
+</layout>   
+	

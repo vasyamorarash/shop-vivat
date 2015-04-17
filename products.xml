@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2014-11-29 01:40">
+  <shop>
+    <name>Vivat</name>
+    <company>Vivat</company>
+    <url>http://shop.vivat.info/index.php/</url>
+    <platform>Magento</platform>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+      <currency id="USD" rate="CBRF"/>
+      <currency id="EUR" rate="CBRF"/>
+      <currency id="UAH" rate="CBRF"/>
+      <currency id="KZT" rate="CBRF"/>
+    </currencies>
+    <categories>
+      <category id="27" parentId="15">Линия Intensive</category>
+      <category id="26" parentId="15">Линия Effecto</category>
+      <category id="25" parentId="15">Линия Vitality's</category>
+      <category id="24" parentId="15">Линия Technica Color</category>
+      <category id="20" parentId="2">Бренды</category>
+      <category id="19" parentId="2">Новые поступления</category>
+      <category id="18" parentId="2">Топ продаж</category>
+      <category id="16" parentId="20">Kis</category>
+      <category id="15" parentId="20">Vitalitys</category>
+      <category id="14" parentId="2">Салонная продукция</category>
+      <category id="13" parentId="20">Kuul</category>
+      <category id="5" parentId="2">Стайлинг</category>
+      <category id="4" parentId="2">Лечение</category>
+      <category id="3" parentId="2">Уход</category>
+      <category id="2" parentId="1">Default category</category>
+      <category id="1">Root Catalog</category>
+    </categories>
+    <offers>
+      <offer id="930" available="true">
+        <url>http://shop.vivat.info/shampun-dlja-intensivnogo-uvlazhnenija-effecto-1500-ml.html</url>
+        <price>480.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>26</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/4/04_04_03_effecto_shampoo.jpg</picture>
+        <name>Шампунь для интенсивного увлажнения Effecto 1500 ml</name>
+        <vendorCode>12010</vendorCode>
+        <description>Интенсивно увлажняющий шампунь от Vitality's -  Effecto Intense Moisturising Shampoo объемом 1500 мл сделает ваши волосы сильными, блестящими и здоровыми.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="931" available="true">
+        <url>http://shop.vivat.info/pitatelnyj-shampun-effecto.html</url>
+        <price>480.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>26</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/4/04_04_04_effecto_pit_shampoo.jpg</picture>
+        <name>Питательный шампунь для поврежденных волос Effecto 1500 ml</name>
+        <vendorCode>12011</vendorCode>
+        <description>Шампунь из линии увлажнение и питание волос Effecto от  Vitality's Nourishing Shampoo for Damaged Hair это питательный шампунь для поврежденных волос объемом 1500 мл. Шампунь создан для применения в салоне или дома.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="935" available="true">
+        <url>http://shop.vivat.info/shelkovyj-kondicioner-effecto-1500-ml.html</url>
+        <price>480.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>26</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/4/04_04_01_effecto_cond.jpg</picture>
+        <name>Шелковый кондиционер Effecto 1500 ml</name>
+        <vendorCode>13001</vendorCode>
+        <description>Шелковый кондиционер Effecto</description>
+      </offer>
+      <offer id="937" available="true">
+        <url>http://shop.vivat.info/maska-dlja-oblegchenija-raschesyvanija-volos-effecto-1000-ml.html</url>
+        <price>460.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>26</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/i/t/item23995_1.jpg</picture>
+        <name>Маска для облегчения расчесывания волос Effecto 1000 мл</name>
+        <vendorCode>13002</vendorCode>
+        <description>Маска для облегчения расчесывания волос Effecto</description>
+      </offer>
+      <offer id="939" available="true">
+        <url>http://shop.vivat.info/restrukturirujuschie-ampuly-s-keroproteinom-effecto-12-amp-h-10-ml.html</url>
+        <price>330.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>26</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/v/-/v-14006-vitalitys-effecto-_-_-_-_-12-_-10-_.png</picture>
+        <name>Реструктурирующие ампулы с керопротеином Effecto (12 амп.х 10 мл)</name>
+        <vendorCode>14006</vendorCode>
+        <description>Реструктурирующие ампулы с керопротеином Effecto (12 амп.х 10 мл)</description>
+      </offer>
+      <offer id="1" available="true">
+        <url>http://shop.vivat.info/los-on-so-nice.html</url>
+        <price>300.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>25</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/v/1/v14106.jpg</picture>
+        <name>Энергетический восстанавливающий лосьон So nice 250 мл</name>
+        <vendorCode>14106</vendorCode>
+        <description>Энергетический восстанавливающий лосьон So nice для ухода за волосами после химической завивки в домашних условиях.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="928" available="true">
+        <url>http://shop.vivat.info/jenergeticheskij-so-nice.html</url>
+        <price>160.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>25</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/1/01_so-nice-natural-energy_big.jpg</picture>
+        <name>Энергетический шампунь для волос с химической завивкой So nice    </name>
+        <vendorCode>12122</vendorCode>
+        <description>Предлагаем вам купить энергетический шампунь для волос с химической завивкой So nice от итальянского бренда Виталитис!</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="929" available="true">
+        <url>http://shop.vivat.info/oil-luxury.html</url>
+        <price>325.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>25</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/b/l/blog367_pic1_1621.jpg</picture>
+        <name>Масло Арганы для ухода за волосами Oil Luxury 35 мл</name>
+        <vendorCode>14011</vendorCode>
+        <description>Масло арганы для ухода за волосами Oil Luxury  от Виталитис оживит усталые волосы и снова придаст им здоровый вид и природную силу.</description>
+      </offer>
+      <offer id="932" available="true">
+        <url>http://shop.vivat.info/maska-ukrepljajuschaja-s-bambukom-250-ml.html</url>
+        <price>190.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>25</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/b/a/bamboo-mask.jpg</picture>
+        <name>Маска укрепляющая с бамбуком 250 мл</name>
+        <vendorCode>105</vendorCode>
+        <description>Маска укрепляющая с бамбуком Vitality's</description>
+      </offer>
+      <offer id="920" available="true">
+        <url>http://shop.vivat.info/shampun-dlja-okrashennyh-volos-technica-color.html</url>
+        <price>190.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/3/03_technica_color_shampoo_web.jpg</picture>
+        <name>Шампунь для окрашенных волос Technica color </name>
+        <vendorCode>12056</vendorCode>
+        <description>Шампунь для окрашенных волос от итальянской торговой марки Виталитис линия Technica Color - это здоровые волосы, насыщенный цвет, мягкость и блеск!</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="923" available="true">
+        <url>http://shop.vivat.info/maska-technica-color.html</url>
+        <price>297.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/2/02_technica-color_mask_web.jpg</picture>
+        <name>Маска для окрашенных волос Technica Color</name>
+        <vendorCode>13023</vendorCode>
+        <description>Маска для окрашенных волос Technica Color - это уход за окрашенными волосами от итальянского бренда профессиональной косметики для волос Виталитис. Маска создана на основе уникальных природных компонентов. &#13;
+Линия Technica Color - это восстановление окрашенных волос, профессиональный уход и забота!</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="924" available="true">
+        <url>http://shop.vivat.info/losion-technica-2phase.html</url>
+        <price>268.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/1/01_techica_2phase_web.jpg</picture>
+        <name>Двухфазный лосьон-уход Technica 2Phase 200 мл</name>
+        <vendorCode>14016</vendorCode>
+        <description>Двухфазный лосьон-уход Technica 2Phase - это профессиональное восстановление окрашенных волос в домашних условиях. В состав лосьона-ухода входят аминокислоты, антиоксиданты, протеины шелка, пленкообразующие компоненты и другие полезные компоненты.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="925" available="true">
+        <url>http://shop.vivat.info/silver-technica-shampoo.html</url>
+        <price>190.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/s/h/shampooing-silver-technica-vitalitys.jpg</picture>
+        <name>Шампунь антижелтизна Silver Technica </name>
+        <vendorCode>12054</vendorCode>
+        <description>Шампунь, нейтрализующий желтизну волос, который используется в профессиональных целях для создания эффектных оттенков блонда: белого, платинового и ледяного.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="926" available="true">
+        <url>http://shop.vivat.info/sredstvo-technica-remover.html</url>
+        <price>327.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/5/05_technica_remover_web.jpg</picture>
+        <name>Средство для удаления краски из кожи Technica remover 100 мл</name>
+        <vendorCode>16002</vendorCode>
+        <description>Средство для удаления краски из кожи после окрашивания волос Technica remover  от  Vitality's(Виталитис) быстро и эффективно удаляет остатки краски из кожи, увлажняя кожу и нейтрализуя раздражение.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="927" available="true">
+        <url>http://shop.vivat.info/technica-defense-gel.html</url>
+        <price>178.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>24</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/0/4/04_technica_defense_gel_web.jpg</picture>
+        <name>Средство для защиты кожи головы Technica Defense Gel 150 мл</name>
+        <vendorCode>16001</vendorCode>
+        <description>Барьерный гель для защиты кожи головы Technica Defense Gel от Vitality's (Виталитис) при окрашивании волос или корней.</description>
+        <country_of_origin>Италия</country_of_origin>
+      </offer>
+      <offer id="2" available="true">
+        <url>http://shop.vivat.info/fix-spray.html</url>
+        <price>230.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/c/u/cutrin-chooz-fixing-spray-super-strong_enl.jpg</picture>
+        <name>Лак-спрей сильной фиксации с УФ фильтром Fix spray</name>
+        <vendorCode>7010</vendorCode>
+        <description>Лак-спрей сильной фиксации с УФ фильтром Fix spray</description>
+      </offer>
+      <offer id="3" available="true">
+        <url>http://shop.vivat.info/magic-styling.html</url>
+        <price>270.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/1/1/11_weho_magic-styling-400x400.jpg</picture>
+        <name>Термозащитное молочко Magic styling</name>
+        <vendorCode>9019</vendorCode>
+        <description>Термозащитное молочко Magic styling</description>
+      </offer>
+      <offer id="4" available="true">
+        <url>http://shop.vivat.info/shampun-kuul-color-intense.html</url>
+        <price>95.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/i/n/intense300-shampoo.jpg</picture>
+        <name>Шампунь для окрашеных волос Kuul Color Intense 300 мл</name>
+        <vendorCode>40791</vendorCode>
+        <description>Центр парикмахерского искусства Vivat  nbsp;предлагает купить шампунь для окрашенных волос от торговой марки Kuul, который заботится об окрашенных волосах и не разрушает молекулы краски, поддерживая цвет волос ярким и насыщенным максимально долго. nbsp;</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="5" available="true">
+        <url>http://shop.vivat.info/kuul-color-intense.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/i/n/intense300-leavein.jpg</picture>
+        <name>Несмываемый кондиционер для окрашенных волос Kuul Color Intense 300 мл</name>
+        <vendorCode>40793</vendorCode>
+        <description>Центр парикмахерского искусства Vivat представляет несмываемый кондиционер для окрашенных волос от торговой марки Kuul Color Intense. Теперь купить кондиционер Kuul можно, не выходя из дому.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="6" available="true">
+        <url>http://shop.vivat.info/kuul-alaziant.html</url>
+        <price>95.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/a/l/alaciante300-temp-shampoo.jpg</picture>
+        <name>Шампунь для выпрямления волос Kuul Alaziant 300 мл</name>
+        <vendorCode>40798</vendorCode>
+        <description>Центр парикмахерского искусства Vivat предлагает современным девушкам купить шампунь для выпрямления волос Kuul Alaziant. Профессиональный шампунь для выпрямления волос обогащен уникальным лечебным комплексом АМИНОГЕН, который состоит из 16 аминокислот.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="7" available="true">
+        <url>http://shop.vivat.info/kon-kuul-alaziant.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/a/l/alaciante300-temp-crema.jpg</picture>
+        <name>Несмываемый кондиционер для выпрямления волос Kuul Alaziant 300 мл</name>
+        <vendorCode>40799</vendorCode>
+        <description>Команда профессиональных парикмахеров центра парикмахерского искусства Vivat предлагает своим клиентам купить несмываемый кондиционер для выпрямления волос Kuul Alaziant в комплекте с шампунем для выпрямления волос.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="8" available="true">
+        <url>http://shop.vivat.info/shampun-kuul-curly.html</url>
+        <price>95.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/c/u/curly300-shampoo.jpg</picture>
+        <name>Шампунь для кучерявых волос Kuul Curly 300 мл</name>
+        <vendorCode>40795</vendorCode>
+        <description>Всем обладательницам непослушных кучерявых волос центр парикмахерского искусcтва Vivat предлагает купить шампунь для кучерявых волос Kuul Curly по доступным ценам в нашем интернет-магазине!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="9" available="true">
+        <url>http://shop.vivat.info/gel-kuul-curly.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/c/u/curly300-leavein.jpg</picture>
+        <name>Несмываемый гель для кучерявых волос Kuul Curly 300 мл</name>
+        <vendorCode>40796</vendorCode>
+        <description>Магазин центра парикмахерского искусства Vivat предлагает всем обладательницам прекрасных кудрей купить несмываемый гель для кучерявых волос Kuul Curly, который обладает уникальными целебными свойствами, благодаря аминокислотам пшеницы, кератина, аминогену и пантенолу, которые входят в состав всех средств по уходу за волосами от Kuul.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="10" available="true">
+        <url>http://shop.vivat.info/kuul-repair-shamp.html</url>
+        <price>95.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/r/e/repair300-shampoo.jpg</picture>
+        <name>Шампунь для поврежденных волос Kuul Repair 300 мл</name>
+        <vendorCode>40801</vendorCode>
+        <description>Магазин профессиональной косметики для волос предлагает вашему вниманию шампунь для поврежденных волос Kuul Repair с восстанавливающим и оздоравливающим эффектом формулы АМИНОГЕН!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="11" available="true">
+        <url>http://shop.vivat.info/kuul-repair-kon.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/r/e/repair300-leavein.jpg</picture>
+        <name>Несмываемый кондиционер для поврежденных волос Kuul Repair 300 мл</name>
+        <vendorCode>40803</vendorCode>
+        <description>Магазин профессиональной косметики для волос Vivat предлагает купить несмываемый кондиционер для поврежденных волос Kuul Repair 300 по доступным ценам сейчас!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="12" available="true">
+        <url>http://shop.vivat.info/kuul-matizant.html</url>
+        <price>171.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/m/a/matizant-shampoo.jpg</picture>
+        <name>Тонирующий шампунь для обесцвеченных волос Kuul Matizant  1л</name>
+        <vendorCode>42594</vendorCode>
+        <description>Парикмахерский центр Vivat, опираясь на многолетний опыт работы с окрашиванием волос, предлагает любительницам моды и стиля купить тонирующий шампунь для обесцвеченных волос Kuul Matizant nbsp; 1л., который борется с желтизной и поможет сделать блонд действительно шикарным, в нашем интернет магазине профессиональной косметики для волос!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="13" available="true">
+        <url>http://shop.vivat.info/kuul-sellador-de-puntas-1.html</url>
+        <price>131.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/f/i/finishing150-sellador.jpg</picture>
+        <name>Несмываемый лосьон с шелком для посеченных кончиков волос Kuul Sellador de Puntas 150 мл </name>
+        <vendorCode>40804</vendorCode>
+        <description>Центр парикмахерского искусства Vivat предлагает купить уникальное средство для профессионального ухода за кончиками волос - несмываемый лосьон с шелком для посеченных кончиков волос Kuul Sellador de Puntas.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="14" available="true">
+        <url>http://shop.vivat.info/kuul-sellador-de-puntas3.html</url>
+        <price>218.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/f/i/finishing300-sellador.jpg</picture>
+        <name>Несмываемый лосьон с шелком для посеченных кончиков волос Kuul Sellador de Puntas 300 мл</name>
+        <vendorCode>40805</vendorCode>
+        <description>Центр парикмахерского искусства Vivat предлагает вам купить несмываемый лосьон с шелком для посеченных кончиков волос Kuul Sellador de Puntas  , после применения которого вы сразу почувствуете действие питательной силы природных ингредиентов, аминокислот пшеницы и кератина.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="15" available="true">
+        <url>http://shop.vivat.info/kuul-reconstruction-system.html</url>
+        <price>216.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/r/e/reconstructor1.jpg</picture>
+        <name>Маска для осветленных и поврежденных волос Kuul Reconstruction System 1 кг</name>
+        <vendorCode>40788</vendorCode>
+        <description>Центр парикмахерского искусства и официальный дистрибьютор профессиональной косметики для волос Vivat предлагает вам купить профессиональные средства по уходу за волосами от торговой марки Kuul. В нашем магазине вы сможете купить шампуни, кондиционеры, а также маску для осветленных и поврежденных волос Kuul Reconstruction System 1 кг.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="16" available="true">
+        <url>http://shop.vivat.info/kuul-ultra-hold.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/u/l/ultra-hold.jpg</picture>
+        <name>Лак для волос сильной фиксации Kuul Ultra Hold 400 мл</name>
+        <vendorCode>42261</vendorCode>
+        <description>Официальный представитель торговой марки Kuul в Украине центр парикмахерского искусства Vivat предлагает всем женщинам, которые заботятся о своих волосах, купить лак для волос сильной фиксации Kuul Ultra Hold  в нашем магазине по доступной цене.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="17" available="true">
+        <url>http://shop.vivat.info/kuul-aspecto-natural.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/w/a/waxgel-normal.jpg</picture>
+        <name>Гель для волос Kuul Aspecto Natural 270 гр</name>
+        <vendorCode>40807</vendorCode>
+        <description>Центр парикмахерского искусства, официальный представитель торговой марки Kuul, салон красоты Vivat предлагает модникам и модницам купить гель для волос Kuul Aspecto Natural  с бесплатной доставкой по Украине в нашем магазине!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="18" available="false">
+        <url>http://shop.vivat.info/kuul-aspecto-humedo.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/w/a/waxgel-humedo.jpg</picture>
+        <name>Гель для волос Kuul Aspecto Humedo 270 гр</name>
+        <vendorCode>40808</vendorCode>
+        <description>Официальный представитель торговой марки Kuul, Kis, Vitality rsquo;s в Украине, центр парикмахерского искусства Vivat предлагает всем следящим за модой и своими волосами купить гель для волос Kuul Aspecto Humedo  с бесплатной доставкой по Украине в нашем интернет магазине!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="19" available="true">
+        <url>http://shop.vivat.info/kuul-urban-wax.html</url>
+        <price>125.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/u/r/urban-gel.jpg</picture>
+        <name>Гель (паутинка) для моделирования прически эластичной фиксации Kuul Urban Wax 100 гр</name>
+        <vendorCode>41775</vendorCode>
+        <description>Гель-паутинка для моделирования прически эластичной фиксации Kuul Urban Wax  от центра парикмахерского искусства Vivat предназначен как для мужчин, так и для женщин. Гель Vivat Kuul Urban Wax обогащен комплексом питательных элементов АМИНОГЕН! В состав входят молочные протеины, аминокислоты пшеницы, молочная кислота, пантенол и кератин.</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="20" available="true">
+        <url>http://shop.vivat.info/kuul-tuff-gel.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/t/u/tuff-gel.jpg</picture>
+        <name>Гель экстра сильной фиксации Kuul Tuff Gel 100 гр</name>
+        <vendorCode>41772</vendorCode>
+        <description>Гель для волос экстра сильной фиксации Kuul Tuff Gel  создан для активных энергичных людей для создания смелых креативных образов! Гель для волос экстра сильной фиксации Kuul Tuff Gel, создан на основе натуральных компонентов, именно поэтому он позаботится о красоте и здоровье ваших волос!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="21" available="true">
+        <url>http://shop.vivat.info/kuul-frost-100.html</url>
+        <price>99.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/f/r/frost-wax.jpg</picture>
+        <name>Гель для моделирования прически с блеском Kuul Frost 100 гр</name>
+        <vendorCode>41776</vendorCode>
+        <description>Гель для моделирования прически с блеском Kuul Frost  для гибкой фиксации создан на основе уникальной природной формулы АМИНОГЕН! Гель для волос обеспечит гибкую фиксацию и придаст волосам невероятный блеск и ухоженный вид!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="22" available="true">
+        <url>http://shop.vivat.info/los-on-dlja-ukladki-volos-kuul-double-shift-300-ml.html</url>
+        <price>153.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>20</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/d/o/double-shift.jpg</picture>
+        <name>Лосьон для укладки волос Kuul Double Shift 300 мл</name>
+        <vendorCode>42477</vendorCode>
+        <description>Лосьон для укладки волос Kuul Double Shift  - это минимум времени, максимум красоты! Лосьон используется для укладки без фиксации. Обогащен активными элементами: кератин, аминоген, аминокислоты пшеницы, пантенол и пшеничный протеин!</description>
+        <country_of_origin>Мексика</country_of_origin>
+      </offer>
+      <offer id="933" available="true">
+        <url>http://shop.vivat.info/kerascalp-healing-shampoo.html</url>
+        <price>210.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/i/kis-kerascalp-healing-shampoo.jpg</picture>
+        <name>KeraScalp Healing Shampoo шампунь для проблемной кожи головы</name>
+        <vendorCode>95101</vendorCode>
+        <description>KeraScalp Healing Shampoo шампунь для проблемной кожи головы</description>
+      </offer>
+      <offer id="934" available="true">
+        <url>http://shop.vivat.info/kerascalp-revitalizer-maska-dlja-kozhi-golovy-i-tonkih-volos.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/kerascalp_revitalizer_.jpg</picture>
+        <name>KeraScalp Revitalizer маска для кожи головы и тонких волос</name>
+        <vendorCode>95106</vendorCode>
+        <description>KeraScalp Revitalizer маска для кожи головы и тонких волос</description>
+      </offer>
+      <offer id="936" available="true">
+        <url>http://shop.vivat.info/keraclean-volume-shampoo.html</url>
+        <price>210.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keraclean_volume_shampoo.jpg</picture>
+        <name>KeraClean Volume Shampoo шампунь для глубокого очищения</name>
+        <vendorCode>95116</vendorCode>
+        <description>KeraClean Volume Shampoo шампунь для глубокого очищения</description>
+      </offer>
+      <offer id="938" available="true">
+        <url>http://shop.vivat.info/keramax-shampoo.html</url>
+        <price>210.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keramax_shampoo_.jpg</picture>
+        <name>KeraMax Shampoo шампунь восстанавливающий</name>
+        <vendorCode>95131</vendorCode>
+        <description>KeraMax Shampoo шампунь восстанавливающий</description>
+      </offer>
+      <offer id="940" available="true">
+        <url>http://shop.vivat.info/keramax-treatment.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keramax_treatment_.jpg</picture>
+        <name>KeraMax Treatment маска восстанавливающая</name>
+        <vendorCode>95141</vendorCode>
+        <description>KeraMax Treatment маска восстанавливающая</description>
+      </offer>
+      <offer id="941" available="true">
+        <url>http://shop.vivat.info/keramoist-shampoo-shampun-uvlazhnjajuschij.html</url>
+        <price>210.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keramoist_shampoo_.jpg</picture>
+        <name>KeraMoist Shampoo шампунь увлажняющий</name>
+        <vendorCode>95146</vendorCode>
+        <description>KeraMoist Shampoo шампунь увлажняющий</description>
+      </offer>
+      <offer id="942" available="true">
+        <url>http://shop.vivat.info/keramoist-treatment-maska-uvlazhnjajuschaja.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keramoist_treatment__1.jpg</picture>
+        <name>KeraMoist Treatment маска увлажняющая</name>
+        <vendorCode>95151</vendorCode>
+        <description>KeraMoist Treatment маска увлажняющая</description>
+      </offer>
+      <offer id="943" available="true">
+        <url>http://shop.vivat.info/keracontrol-shampoo.html</url>
+        <price>210.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keracontrol_shampoo_.jpg</picture>
+        <name>KeraControl Shampoo шампунь для мягкого очищения</name>
+        <vendorCode>95156</vendorCode>
+        <description>KeraControl Shampoo шампунь для мягкого очищения</description>
+      </offer>
+      <offer id="944" available="true">
+        <url>http://shop.vivat.info/kerashield-leave.html</url>
+        <price>150.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/kerashield_leave-in_.jpg</picture>
+        <name>KeraShield Leave-In кондиционер увлажняющий</name>
+        <vendorCode>95161</vendorCode>
+        <description>KeraShield Leave-In кондиционер увлажняющий</description>
+      </offer>
+      <offer id="945" available="true">
+        <url>http://shop.vivat.info/keraspray-suhoj-lak-dlja-maksimal-noj-fiksacii.html</url>
+        <price>155.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keraspray_.jpg</picture>
+        <name>KeraSpray сухой лак для максимальной фиксации</name>
+        <vendorCode>95500</vendorCode>
+        <description>KeraSpray сухой лак для максимальной фиксации</description>
+      </offer>
+      <offer id="946" available="true">
+        <url>http://shop.vivat.info/keramousse-pena-dlja-ob-ema.html</url>
+        <price>155.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/k/e/keramousse_.jpg</picture>
+        <name>KeraMousse пена для объема</name>
+        <vendorCode>95550</vendorCode>
+        <description>KeraMousse пена для объема</description>
+      </offer>
+      <offer id="947" available="true">
+        <url>http://shop.vivat.info/settinglotion-los-on-dlja-maksimal-nogo-ob-ema.html</url>
+        <price>35.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <name>SettingLotion лосьон для максимального обьема</name>
+        <vendorCode>95212</vendorCode>
+        <description>SettingLotion лосьон для максимального обьема</description>
+      </offer>
+      <offer id="948" available="true">
+        <url>http://shop.vivat.info/gel-wax-gel-vosk-dlja-gibkoj-fiksacii.html</url>
+        <price>165.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/g/e/gel_wax_-_.jpg</picture>
+        <name>Gel Wax гель-воск для гибкой фиксации</name>
+        <vendorCode>95560</vendorCode>
+        <description>Gel Wax гель-воск для гибкой фиксации</description>
+      </offer>
+      <offer id="949" available="true">
+        <url>http://shop.vivat.info/groomgelly-gel-zhele.html</url>
+        <price>165.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/g/r/groomgelly_-_.jpg</picture>
+        <name>GroomGelly гель-желе</name>
+        <vendorCode>95561</vendorCode>
+        <description>GroomGelly гель-желе</description>
+      </offer>
+      <offer id="950" available="true">
+        <url>http://shop.vivat.info/update-pasta-dlja-tekstury.html</url>
+        <price>245.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/_/u/_update_.jpg</picture>
+        <name>Update паста для текстуры</name>
+        <vendorCode>95562</vendorCode>
+        <description>Update паста для текстуры</description>
+      </offer>
+      <offer id="951" available="true">
+        <url>http://shop.vivat.info/control-krem-dlja-pridanija-formy.html</url>
+        <price>245.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/c/o/control_.jpg</picture>
+        <name>Control крем для придания формы</name>
+        <vendorCode>95563</vendorCode>
+        <description>Control крем для придания формы</description>
+      </offer>
+      <offer id="952" available="true">
+        <url>http://shop.vivat.info/gloss-pomade-pomada-dlja-bleska.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <name>Gloss Pomade помада для блеска</name>
+        <vendorCode>95564</vendorCode>
+        <description>Gloss Pomade помада для блеска</description>
+      </offer>
+      <offer id="953" available="true">
+        <url>http://shop.vivat.info/shaper-pasta-dlja-fiksacii.html</url>
+        <price>165.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/_/s/_shaper_.jpg</picture>
+        <name>Shaper паста для фиксации</name>
+        <vendorCode>95565</vendorCode>
+        <description>Shaper паста для фиксации</description>
+      </offer>
+      <offer id="954" available="true">
+        <url>http://shop.vivat.info/volume-gel-gel-dlja-ob-ema.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/v/o/volume_gel__1.jpg</picture>
+        <name>Volume Gel гель для объема</name>
+        <vendorCode>95566</vendorCode>
+        <description>Volume Gel гель для объема</description>
+      </offer>
+      <offer id="955" available="true">
+        <url>http://shop.vivat.info/shine-finish-blesk-dlja-volos.html</url>
+        <price>285.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/s/h/shine_finish_.jpg</picture>
+        <name>Shine Finish блеск для волос</name>
+        <vendorCode>95567</vendorCode>
+        <description>Shine Finish блеск для волос</description>
+      </offer>
+      <offer id="956" available="true">
+        <url>http://shop.vivat.info/smoother-gel-dlja-vyprjamlenija.html</url>
+        <price>195.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/_/s/_smoother_.jpg</picture>
+        <name>Smoother гель для выпрямления</name>
+        <vendorCode>95568</vendorCode>
+        <description>Smoother гель для выпрямления</description>
+      </offer>
+      <offer id="957" available="true">
+        <url>http://shop.vivat.info/soft-wax-mjagkij-vosk-dlja-bleska.html</url>
+        <price>165.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/s/o/soft_wax_.jpg</picture>
+        <name>Soft Wax мягкий воск для блеска</name>
+        <vendorCode>95570</vendorCode>
+        <description>Soft Wax мягкий воск для блеска</description>
+      </offer>
+      <offer id="958" available="true">
+        <url>http://shop.vivat.info/supergel-super-gel-dlja-ob-ema.html</url>
+        <price>165.0000</price>
+        <currencyId>UAH</currencyId>
+        <categoryId>16</categoryId>
+        <picture>http://shop.vivat.info/media/catalog/product/cache/0/image/210x/486b391e5bf779a6f5fd499a43a1c909/s/u/supergel_.jpg</picture>
+        <name>SuperGel супер гель для объема</name>
+        <vendorCode>95580</vendorCode>
+        <description>SuperGel супер гель для объема</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

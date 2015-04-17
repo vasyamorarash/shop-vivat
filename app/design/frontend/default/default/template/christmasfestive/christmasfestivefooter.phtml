@@ -1,0 +1,19 @@
+<?php if(Mage::getStoreConfig('christmasfestive/generalconfig/active')):
+        if(Mage::getStoreConfig('christmasfestive/imageconfiguration/image_active')):
+
+            $getchristmasimagesoathfooter   =   Mage::getBaseUrl('media')."christmasfestive/"."footer/";
+            $defaultpath                    =   Mage::getBaseUrl('media')."christmasfestive/"."default/";
+            $get_footer_image               =   Mage::getStoreConfig('christmasfestive/imageconfiguration/image_footer');
+            if($get_footer_image)
+            {
+                $get_footer_image           =   Mage::getStoreConfig('christmasfestive/imageconfiguration/image_footer');
+                $final_footer_image         =   $getchristmasimagesoathfooter.$get_footer_image;
+            }
+            /*else{
+            $final_footer_image           =    $defaultpath."footer.gif";
+            }*/
+        ?>
+        
+        
+        <div class="christmas-tree" <?php if (isset($final_footer_image)) { ?> style="background-image: url(<?php echo $final_footer_image; ?>)" <?php } ?>> </div>
+        <?php endif; endif;?> 

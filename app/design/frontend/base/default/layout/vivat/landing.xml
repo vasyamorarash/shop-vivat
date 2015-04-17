@@ -1,0 +1,21 @@
+<?xml version="1.0"?>   
+<layout version="0.1.0">
+  <default>
+    <reference name="footer">
+
+      <block type="landing/product" name="landing-product" template="vivat/landing/product.phtml"/>
+
+    </reference>
+  </default>
+
+  <landing_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>
+    </reference>   
+    <reference name="content">   
+      <block type="landing/index" name="landing_index" template="vivat/landing/index.phtml"/>
+    </reference>
+  </landing_index_index>
+
+</layout>   
+	

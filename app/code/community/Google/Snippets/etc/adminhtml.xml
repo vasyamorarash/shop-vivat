@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <googlesnippets translate="title" module="googlesnippets">
+                                        <title>Google Rich Snippets</title>
+                                        <sort_order>110</sort_order>
+                                    </googlesnippets>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config> 

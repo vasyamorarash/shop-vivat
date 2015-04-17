@@ -1,0 +1,79 @@
+<?php
+if (Mage::getStoreConfig('christmasfestive/generalconfig/active')):
+    if (Mage::getStoreConfig('christmasfestive/imageconfiguration/image_active')):
+
+
+        $getchristmasimagesoathsanta = Mage::getBaseUrl('media') . "christmasfestive/" . "santa/";
+        $default_path = $this->getSkinUrl('christmasfestive/images/santa.gif', array('_secure' => true));
+        $get_movingsanta_image = Mage::getStoreConfig('christmasfestive/imageconfiguration/image_santa_claus');
+        $get_movingsanta_effect_enable = Mage::getStoreConfig('christmasfestive/imageconfiguration/santa_moving_effect');
+        if ($get_movingsanta_effect_enable) {
+            $get_movingsanta_effect = "random";
+        } else {
+            $get_movingsanta_effect = "simple";
+        }
+
+        if ($get_movingsanta_image) {
+            $get_footer_image = Mage::getStoreConfig('christmasfestive/imageconfiguration/image_footer');
+            $final_movingsanta_image = $getchristmasimagesoathsanta . $get_movingsanta_image;
+        } else {
+            $final_movingsanta_image = $default_path;
+        }
+        ?>
+
+        <script type="text/javascript">
+            jQuery(document).ready(function($)
+            {
+                $('.col-main').append('<div class="moving-santa" id="moving-santa"><img id="movingsanta" class="movingsanta" alt="" src="<?php echo $final_movingsanta_image; ?>"/></div>');
+
+                santa_animation_begin('<?php echo $get_movingsanta_effect; ?>', 15000, '<?php echo $final_movingsanta_image ?>', '<?php echo $final_movingsanta_image ?>');
+                var right_to_left_image = '';
+                function santa_animation_begin(type, new_speed, animate_image, next_image) {
+                    if (animate_image) {
+                        right_to_left_image = animate_image;
+                    }
+                    $('#moving-santa img').attr('src', animate_image);
+                    santa_animation();
+                }
+
+                function santa_animation() {
+                    var santa_animatio = '<?php echo $get_movingsanta_effect; ?>';
+
+                    if (santa_animatio == 'random') {
+                        var h = $(document).height() - 50;
+                        var w = $(document).width() - 50;
+                        var nh = Math.floor(Math.random() * h);
+                        var nw = Math.floor(Math.random() * w);
+                        $('#moving-santa').animate({top: nh, left: nw}, 5000, function() {
+                            santa_animation();
+                        });
+
+                    }
+
+                    else
+                    {
+                        $('#movingsanta').animate(
+                                {
+                                    'margin-left': '1100px'
+
+                                },
+                        10000,
+                                'linear', // Animation-duration
+                                function() {
+
+                                    $('#movingsanta').css('margin-left', '-300px');
+                                    setTimeout(function() {
+                                        santa_animation();
+                                    }.bind(this), 5000);
+                                });
+                    }
+                }
+
+            }
+            )
+        </script>
+
+    <?php
+    endif;
+endif;
+?>  

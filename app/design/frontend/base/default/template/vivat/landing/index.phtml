@@ -1,0 +1,282 @@
+<?php $this->checkDate();
+//$this->setDiscount();
+//var_dump($this->getProductId());
+?>
+<?php if(($this->isActive())&&($this->getProductId()!=NULL)): ?>
+<?php
+    $newProduct = Mage::getModel('catalog/product')->load($this->getProductId());
+//    $product = Mage::getModel('catalog/product')->loadByAttribute('sku', '14153');
+//    var_dump($product);
+    $relatedProducts = $newProduct->getRelatedProducts();
+    //var_dump($newProduct->getRelatedProducts()[0]);
+    //var_dump(get_class_methods($newProduct));
+?>
+<!--<a href="--><?php //echo $product->getProductUrl()?><!--"><img src="--><?php //echo $product->getImageUrl()?><!--">--><?php //echo $product->getName() . $product->getPrice()?><!--</a>-->
+
+
+
+
+    <div class="product-img-column grid12-4">
+        <div class="box-additional box-tabs grid12-9" style="float: left; width: 100%; margin-top: 3px">
+            <div id="product-media-tabs" class="gen-tabs gen-tabs-style1 accor">
+                <ul class="tabs clearer">
+                    <li id="tab-description-2"><a href="#" class="">Фото</a></li>
+
+                </ul>
+
+
+                <div class="tabs-panels">
+
+                    <h2 class="acctab current" id="acctab-description-2">Фото<div id="timer" style="float: right; font-size: 30px; font-style: oblique; font-family: Raleway, Helvetica Neue, Verdana, Arial, sans-serif;"></div></h2>
+
+                    <script type="text/javascript">
+                        jQuery(document).ready(startTime());
+
+                        function startTime() {
+                            var today = new Date();
+                            var h = 23 - today.getHours();
+                            var m = 59 - today.getMinutes();
+                            var s = 59 - today.getSeconds();
+                            // add a zero in front of numbers<10
+                            h = checkTime(h);
+                            m = checkTime(m);
+                            s = checkTime(s);
+                            document.getElementById("timer").innerHTML = h + ":" + m + ":" + s;
+                            var t = setTimeout(function(){ startTime() }, 100);
+                        }
+
+                        function checkTime(i) {
+                            if (i < 10) {
+                                i = "0" + i;
+                            }
+                            return i;
+                        }
+                    </script>
+                    <div class="panel" style="display: block;">
+                        <div class="box-collateral box-reviews">
+
+
+
+
+                            <div class="img-box img-box-style1">
+
+
+
+                                <p class="product-image" style="max-width: 363px;">
+                                    <img src="<?php echo $newProduct->getImageUrl()?>" alt="" title="" itemprop="image">
+                                </p>
+
+
+
+
+
+                                <div class="more-images slider-arrows3 itemslider-thumbnails count-1">
+                                    <div id="itemslider-zoom" class="thumbnails slides" style="opacity: 0;">
+
+                                    </div>
+                                </div> <!-- end: more-images -->
+                            </div> <!-- end: img-box -->
+
+
+
+                            <script type="text/javascript">
+                                jQuery(function() {
+
+                                    //Product thumbnails
+                                    jQuery(".cloud-zoom-gallery").first().removeClass("cboxElement");
+
+                                    jQuery(".cloud-zoom-gallery").click(function() {
+                                        jQuery("#zoom-btn").attr('href', $(this).attr('href'));
+                                        jQuery("#zoom-btn").attr('title', $(this).attr('title'));
+
+                                        jQuery(".cloud-zoom-gallery").each(function() {
+                                            jQuery(this).addClass("cboxElement");
+                                        });
+                                        jQuery(this).removeClass("cboxElement");
+                                    });
+
+                                });
+                            </script>
+
+                            <script type="text/javascript">
+                                //<![CDATA[
+
+                                jQuery(function() {
+
+                                    var t; jQuery(window).resize(function() { clearTimeout(t); t = setTimeout(function() { jQuery(".more-images .cloud-zoom-gallery").first().click(); }, 200); });
+
+                                    var owl = jQuery('#itemslider-zoom');
+                                    owl.owlCarousel({
+
+                                        mouseDrag: false,
+
+
+                                        itemsCustom: [ [0, 1] ],
+                                        responsiveRefreshRate: 50,
+
+                                        slideSpeed: 200,
+
+                                        scrollPerPage: true,
+
+                                        autoPlay: 5000,
+
+                                        stopOnHover: true,
+
+                                        rewindNav: true,
+                                        rewindSpeed: 600,
+
+                                        pagination: false,
+                                        navigation: true,
+                                        navigationText: false
+
+                                    }); //end: owl
+
+                                });
+                                //]]>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                //<![CDATA[
+                jQuery(function(){jQuery("#goto-reviews, #goto-reviews-form").click(function(){if(jQuery("#product-media-tabs").hasClass("accor")){jQuery("#product-media-tabs .tabs-panels").data("tabs").click(jQuery(".tabs-panels .acctab").index(jQuery("#acctab-tabreviews")))}else{jQuery("#product-media-tabs .tabs").data("tabs").click(jQuery("#tab-tabreviews").index())}})});
+                //]]>
+            </script>
+        </div>
+    </div> <!-- end: left -->
+
+    <div class="product-shop grid12-5">
+
+        <div class="product-name">
+            <h1 itemprop="name"><?php echo $newProduct->getName()?></h1>
+        </div>
+
+        <div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+            <div class="product-type-data">
+                <p class="availability in-stock"> <span>Есть в наличии</span></p>
+                <div class="price-box">
+
+                    <p class="old-price" style="font-size: 20px; margin-bottom: 10px;">
+                        <span class="price-label">Обычная цена:</span>
+                        <span class="price" id="old-price-1" >
+                            <?php echo intval($newProduct->getPrice()+0.5)?>&nbsp;грн
+                        </span>
+                    </p>
+
+                    <p class="special-price" style="font-size: 25px; margin-bottom: 10px;">
+                        <span class="price-label">Special Price</span>
+                        <span class="price" itemprop="price" id="product-price-1">
+                            <?php echo intval($newProduct->getSpecialPrice()+0.5)?>&nbsp;грн
+                        </span>
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div class="action-box clearer">
+            <ul class="add-to-links">
+
+                <li>
+                    <a href="<?php echo $newProduct->getProductUrl()?>" title="Перейти на страницу товара">
+                        <span class="ic ic-arrow-right ib icon-color-productview"></span>
+                        <span class="label">Перейти на страницу товара</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <?php if($video = $newProduct->getVideo()):?>
+        <h2>Видео</h2>
+        <div id="product-video-box" class="box-collateral box-reviews">
+            <?php echo $video?>
+        </div>
+        <?php endif; ?>
+    </div> <!-- end: center -->
+
+    <div class="product-secondary-column grid12-3 custom-sidebar-right">
+        <div class="inner">
+            <div class="">
+                <div class="block block-related block-related-slider">
+                    <?php if(count($relatedProducts)!=0): ?>
+                    <h3 class="section-title padding-right" style="padding-top: 0">Сопутствующие товары</h3>
+                    <div class="itemslider-wrapper itemslider-related-wrapper slider-arrows1 slider-arrows1-pos-top-right slider-pagination1">
+                        <div id="itemslider-related" class="itemslider  products-grid centered">
+                            <?php foreach($relatedProducts as $product):?>
+                                <?php $product = Mage::getModel('catalog/product')->load($product->entity_id) ?>
+                            <div class="item">
+                                <a href="<?php echo $product->getProductUrl() ?>" title="Перейти на страницу товара" class="product-image">
+
+                                    <img class="lazyOwl" src="<?php echo $product->getImageUrl() ?>" alt="" />
+
+                                </a>
+                                <h3 class="product-name"><a href="<?php echo $product->getProductUrl() ?>" title="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></a></h3>
+
+
+
+
+
+                                <div class="price-box">
+                                    <span class="regular-price" id="product-price-928-related">
+                                            <span class="price"><?php echo (int)$product->getPrice() ?> грн</span>
+                                    </span>
+                                </div>
+
+
+                                <div class="addto-texticons">
+                                    <a class="related-add-to-wishlist" href="http://shop.vivat.info/wishlist/index/add/product/<?php echo $product->getId() ?>/form_key/R5jEnmcFS44Tw4Xz/" title="Добавить в лист пожеланий">Добавить в лист пожеланий</a>
+                                </div>
+                            </div>
+                            <?php endforeach; ?>
+                        </div> <!-- end: itemslider -->
+                    </div> <!-- end: itemslider-wrapper -->
+                    <?php endif; ?>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        jQuery(function($) {
+
+                            var owl = $('#itemslider-related');
+                            owl.owlCarousel({
+
+                                lazyLoad: true,
+
+                                itemsCustom: [ [0, 1], [320, 2], [480, 3], [768, 1] ],
+                                responsiveRefreshRate: 50,
+
+                                slideSpeed: 200,
+
+                                paginationSpeed: 500,
+
+                                scrollPerPage: true,
+
+                                autoPlay: 6000,
+
+                                stopOnHover: true,
+
+                                rewindNav: true,
+                                rewindSpeed: 600,
+
+                                pagination: false,
+
+                                navigation: true,
+                                navigationText: false
+
+                            }); //end: owl
+
+                        });
+                        //]]>
+                    </script>
+                </div> <!-- end: block -->
+            </div>
+        </div>
+    </div> <!-- end: right -->
+
+<?php endif; ?>

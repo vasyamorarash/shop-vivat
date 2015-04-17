@@ -1,0 +1,47 @@
+<?php
+/** 
+  * class Google_Snippets_Block_Snippets
+  */
+?>
+<?php
+if($this->isEnabled() && ($_product = $this->getProduct()) ) :
+
+$_helper = $this->helper('catalog/output');
+?>
+<div itemscope itemtype="http://schema.org/Product">
+  <meta itemprop="name" content="<?php echo $this->htmlEscape($_product->getName()) ?>" />
+  <?php if($this->showProductImage()) { ?>
+  <meta itemprop="image" content="<?php echo Mage::helper('catalog/image')->init($_product, 'image') ?>" />
+  <?php } ?>
+  <?php if($this->enableDescription()) { ?>
+  <meta itemprop="description" content="<?php echo $this->htmlEscape($_product->getDescription()) ?>" />
+  <?php } ?>
+  <?php if($this->enableRatings()) { ?>
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+    <meta itemprop="itemreviewed" content="<?php echo $this->htmlEscape($_product->getName()) ?>" />
+    <meta itemprop="reviewCount" content="<?php echo ($reviewCount = $_product->getRatingSummary()->getReviewsCount())? $reviewCount : 0; ?>" />
+    <?php $summaryData = Mage::getModel('review/review_summary')->setStoreId(Mage::app()->getStore()->getId())->load($_product->getId()); ?>
+    <meta itemprop="ratingValue" content="<?php echo ($summaryData->getRatingSummary() * 5)/100; ?>" />
+  </div>
+  <?php } ?>
+  <?php if($this->enableSku()) { ?>  
+  <meta itemprop="productID" content="<?php echo $this->htmlEscape($_product->getSku()) ?>" />
+  <?php } ?>
+  
+  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <?php if($this->enablePrice()) { ?>
+    <meta itemprop="priceCurrency" content="<?php echo Mage::app()->getStore()->getCurrentCurrencyCode() ?>" />
+    <meta itemprop="price" content="<?php echo round($_product->getFinalPrice(), 2); ?>" />
+    <?php } ?>
+    <?php if($this->enableAvailability()) { ?>
+    	<?php if($_product->getIsInStock()) { ?>
+    <link itemprop="availability" href="http://schema.org/InStock">
+    	<?php } else { ?>
+    <link itemprop="availability" href="http://schema.org/OutOfStock">
+        <?php } ?>
+    <?php } ?>
+  </div>
+</div>
+<?php
+endif;
+?>

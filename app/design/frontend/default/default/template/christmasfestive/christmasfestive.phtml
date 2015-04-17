@@ -1,0 +1,48 @@
+<?php if(Mage::getStoreConfig('christmasfestive/generalconfig/active')): ?>
+    <script type="text/javascript">
+        var Snow = new Christmasfestiveflakes(<?php echo $this->getJsonOptions(); ?>);
+        jQuery(document).ready(function($)
+        {
+                $('.footer-container').append('<div class="xmas_bgimage"></div>');
+
+        })
+    </script>
+    <?php
+
+
+        if(Mage::getStoreConfig('christmasfestive/bagroundimageconfig/bgimage_active')):
+
+            $getchristmasimagesforbg       = Mage::getBaseUrl('media')."christmasfestive/"."bgimage/";
+            $default_path                   = $this->getSkinUrl('christmasfestive/images/christmas-bg.jpg', array('_secure'=>true));
+            $get_bg_image                   =  Mage::getStoreConfig('christmasfestive/bagroundimageconfig/uploadbg_file');
+
+            if($get_bg_image){
+                $get_bg_image               =  Mage::getStoreConfig('christmasfestive/bagroundimageconfig/uploadbg_file');
+                $get_bg_image             =  $getchristmasimagesforbg.$get_bg_image;
+
+            }else{ 
+                $get_bg_image             =  $default_path;
+        } ?>
+        <script type="text/javascript">
+            //<![CDATA[
+            // Let it snow, let it snow, let it snow...
+            jQuery(document).ready(function($)
+                {
+                    function conveyorLoop() {
+                        $('.lights').animate({
+                                'background-position': '+=102'
+                            }, 8000, 'linear', conveyorLoop);
+                    }
+                    conveyorLoop();
+                    var bg_image  = '<?php echo $get_bg_image; ?>';
+                    var image = $('.main-container');
+                    if(bg_image){
+                        image.css('background', 'url(' + bg_image +')');
+                        //$('.main-container').style.backgroundImage = "url(" + image  + ")";;
+                    }
+            })
+            //]]>
+        </script>
+        <?php endif;?>  
+    <?php endif; ?>
+

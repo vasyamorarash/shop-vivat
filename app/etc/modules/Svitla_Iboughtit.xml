@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Svitla_Iboughtit>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.3.0</version>
+    </Svitla_Iboughtit>
+  </modules>
+</config>

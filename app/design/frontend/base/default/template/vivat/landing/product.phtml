@@ -1,0 +1,42 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Vassya
+ * Date: 14.04.2015
+ * Time: 13:20
+ */
+
+
+$product = Mage::getModel('catalog/product')->loadByAttribute('sku', Mage::getStoreConfig('landing/proposal/sku'));
+$product = Mage::getModel('catalog/product')->load($product->getId());
+//var_dump($product->getData());
+?>
+<?php //echo $this->getLayout()
+//    ->createBlock('landing/product','landing_product',array('template' => 'vivat/landing/product.phtml'))
+//    ->toHtml()?>
+        <div class="owl-item" style="width: 215px; text-align: center;">
+            <h6 class="block-title heading">Proposal of the day</h6>
+            <div class="item">
+                <a href="<?php echo $product->getProductUrl() ?>" title="Перейти на страницу товара" class="product-image">
+
+                    <img class="lazyOwl" src="<?php echo $product->getImageUrl() ?>" alt="" />
+
+                </a>
+                <h3 class="product-name"><a href="<?php echo $product->getProductUrl() ?>" title="<?php echo $product->getName() ?>"><?php echo $product->getName() ?></a></h3>
+
+
+
+
+
+                <div class="price-box">
+                                    <span class="regular-price">
+                                            <span class="price"><?php echo (int)$product->getPrice() ?> грн</span>
+                                    </span>
+                </div>
+
+
+                <div class="addto-texticons">
+                    <a class="related-add-to-wishlist" href="http://shop.vivat.info/wishlist/index/add/product/<?php echo $product->getId() ?>/form_key/R5jEnmcFS44Tw4Xz/" title="Добавить в лист пожеланий">Добавить в лист пожеланий</a>
+                </div>
+            </div>
+        </div>

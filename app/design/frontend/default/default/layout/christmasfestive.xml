@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>christmasfestive/js/jquery.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>christmasfestive/js/jquery.noconflict.js</name>
+            </action>
+            <!--            <action method="addJs"><script>christmasfestive/jquery.min.js</script></action>-->
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>christmasfestive/js/christmasfestive.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>christmasfestive/css/christmasfestive.css</name>
+            </action>
+            <block type="christmasfestive/christmasfestive" template="christmasfestive/christmasfestive.phtml" name="christmasfestive.christmasfestive" />
+            <block type="core/template" name="christmasfestiveheader" template="christmasfestive/christmasfestivehead.phtml"/>
+        </reference>
+
+        <reference name="footer">
+            <block type="core/template" name="christmasfestivefooter" template="christmasfestive/christmasfestivefooter.phtml"/>
+        </reference>
+
+        <reference name="content">
+            <block type="core/template" name="christmasfestivecontent" template="christmasfestive/christmasfestivemovingsanta.phtml"/>
+        </reference>
+
+    </default>
+</layout> 

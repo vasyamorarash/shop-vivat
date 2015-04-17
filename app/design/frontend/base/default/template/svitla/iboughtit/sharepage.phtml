@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head lang="en">
+    <meta charset="UTF-8">
+    <!-- for Facebook -->
+    <meta property="og:title" content="<?php echo $this->__('I bought it!'); ?>" />
+    <meta property="og:type" content="article" />
+    <?php foreach($this->getProductImages() as $image): ?>
+        <meta property="og:image" content="<?php echo $image; ?>" />
+    <?php endforeach; ?>
+    <!--    <meta property="og:url" content="http://avtoklav.net/avtoklav-net.html" />-->
+    <meta property="og:description" content="<?php echo $this->__('I bought'); ?> <?php echo $this->getProductsNames(); ?>" />
+
+    <meta name="description" content="<?php echo $this->__('I bought'); ?> <?php echo $this->getProductsNames(); ?>" />
+    <title><?php echo $this->__('I bought'); ?> <?php echo $this->getProductsNames(); ?></title>
+</head>
+<body>
+    <h1><?php echo $this->__('I bought'); ?> <?php echo $this->getProductsNames(); ?></h1>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+* @category   Biztech
+* @package    Biztech_Christmasfestive
+* @author     ModuleCreator
+* @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+<config>
+    <modules>
+        <Biztech_Christmasfestive>
+            <version>0.1.0</version>
+        </Biztech_Christmasfestive>
+    </modules>
+    <frontend>
+        <routers>
+            <christmasfestive>
+                <use>standard</use>
+                <args>
+                    <module>Biztech_Christmasfestive</module>
+                    <frontName>christmasfestive</frontName>
+                </args>
+            </christmasfestive>
+        </routers>
+        <layout>
+            <updates>
+                <christmasfestive>
+                    <file>christmasfestive.xml</file>
+                </christmasfestive>
+            </updates>
+        </layout>
+    </frontend>
+    <admin>
+        <routers>
+            <christmasfestive>
+                <use>admin</use>
+                <args>
+                    <module>Biztech_Christmasfestive</module>
+                    <frontName>christmasfestive</frontName>
+                </args>
+            </christmasfestive>
+        </routers>
+    </admin>
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <Biztech_Christmasfestive>
+                            <title>Christmasfestive Module</title>
+                            <sort_order>10</sort_order>
+                        </Biztech_Christmasfestive>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <christmasfestive>
+                                            <title>Christmas Holiday Season Effects</title>
+                                        </christmasfestive>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <christmasfestive>
+                    <file>christmasfestive.xml</file>
+                </christmasfestive>
+            </updates>
+        </layout>
+        <!--<events>
+        <admin_system_config_changed_section_christmasfestive>
+        <observers>
+        <biztech_christmasfestive_observer>
+        <type>singleton</type>
+        <class>christmasfestive/observer</class>
+        <method>saveSystemConfig</method>
+        </biztech_christmasfestive_observer>
+        </observers>
+        </admin_system_config_changed_section_christmasfestive>    
+        </events> -->
+    </adminhtml>   
+    <global>
+        <models>
+            <christmasfestive>
+                <class>Biztech_Christmasfestive_Model</class>
+                <resourceModel>christmasfestive_mysql4</resourceModel>
+            </christmasfestive>
+            <christmasfestive_mysql4>
+                <class>Biztech_Christmasfestive_Model_Mysql4</class>
+                <entities>
+                    <christmasfestive>
+                        <table>christmasfestive</table>
+                    </christmasfestive>
+                </entities>
+            </christmasfestive_mysql4>
+        </models>
+        <resources>
+            <christmasfestive_setup>
+                <setup>
+                    <module>Biztech_Christmasfestive</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </christmasfestive_setup>
+            <christmasfestive_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </christmasfestive_write>
+            <christmasfestive_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </christmasfestive_read>
+        </resources>
+        <blocks>
+            <christmasfestive>
+                <class>Biztech_Christmasfestive_Block</class>
+            </christmasfestive>
+        </blocks>
+        <helpers>
+            <christmasfestive>
+                <class>Biztech_Christmasfestive_Helper</class>
+            </christmasfestive>
+        </helpers>
+    </global>
+    <default>
+        <christmasfestive>
+            <snowflakesconfig>
+                <snowflakes_number>35</snowflakes_number>
+                <snowflakes_colors>#e6f2ff, #eee, silver, pink</snowflakes_colors>
+                <snowflakes_text>&#x2744;</snowflakes_text>
+                <snowflakes_speed>2</snowflakes_speed>
+                <snowflakes_minsize>10</snowflakes_minsize>
+                <snowflakes_maxsize>50</snowflakes_maxsize>
+            </snowflakesconfig>
+        </christmasfestive>
+    </default>
+</config>

@@ -1,0 +1,17 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Vassya
+ * Date: 14.04.2015
+ * Time: 21:07
+ */
+
+$product = Mage::getModel('catalog/product')->loadByAttribute('sku', Mage::getStoreConfig('landing/proposal/sku'));
+$product = Mage::getModel('catalog/product')->load($product->getId());
+//var_dump($product->getData());
+?>
+<?php //echo $this->getLayout()
+//    ->createBlock('landing/product','landing_product',array('template' => 'vivat/landing/product.phtml'))
+//    ->toHtml()?>
+
+        <a href="<?php echo $product->getProductUrl() ?>" title="Перейти на страницу товара">Proposal of the day</a>

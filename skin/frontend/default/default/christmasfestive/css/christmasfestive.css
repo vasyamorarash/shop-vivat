@@ -1,0 +1,20 @@
+/* Header Section Light */
+.lights-head { background-image: url("../images/header-decoration.gif"); background-repeat: repeat-x;   height:46px; max-height: 46px; width: 100%; position: absolute; top: 0; left: 0;}
+
+
+.moving-santa{position: absolute;  z-index: 99;}
+
+
+.main-container{background-image: url("../images/christmas-bg.jpg");}
+
+
+
+
+/* Footer christmas-tree*/
+
+
+.christmas-tree {  background-image: url("../images/christmas-tree.png"); background-repeat: no-repeat;    width: 20%; position: fixed; bottom: 10px; left:10px; height: 212px; z-index: 999;}
+
+.xmas_bgimage{ background-image: url("../images/footerdecoration.png"); background-repeat: repeat-x; background-position: bottom left;    width: 100%; position:fixed; bottom: 0; left: 0; height: 168px; z-index:1;}
+
+.footer {margin: 0 auto; position: relative; z-index: 9;padding: 10px 10px 110px}
